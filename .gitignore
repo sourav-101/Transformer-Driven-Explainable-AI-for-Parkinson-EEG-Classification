@@ -1,14 +1,15 @@
 # Virtual Environment
-venv/
+preprocessing/dataset1_ucsd_eeg/venv/
 
 # Python Cache
-__pycache__/
+**/__pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Data folders (Do not push large datasets to GitHub)
-data/
+# Data folders (Ignore files, but keep the structure via .gitkeep)
+preprocessing/dataset1_ucsd_eeg/data/*
+!preprocessing/dataset1_ucsd_eeg/data/**/.gitkeep
 
 # IDE files
 .vscode/
