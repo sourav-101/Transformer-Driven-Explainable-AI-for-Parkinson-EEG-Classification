@@ -7,9 +7,15 @@ preprocessing/dataset1_ucsd_eeg/venv/
 *.pyo
 *.pyd
 
-# Data folders (Ignore files, but keep the structure via .gitkeep)
-preprocessing/dataset1_ucsd_eeg/data/*
-!preprocessing/dataset1_ucsd_eeg/data/**/.gitkeep
+# Ignore all contents inside data folders...
+preprocessing/dataset1_ucsd_eeg/data/raw/*
+preprocessing/dataset1_ucsd_eeg/data/interim/*
+preprocessing/dataset1_ucsd_eeg/data/processed/*
+
+# ...except for the .gitkeep files
+!preprocessing/dataset1_ucsd_eeg/data/raw/.gitkeep
+!preprocessing/dataset1_ucsd_eeg/data/interim/.gitkeep
+!preprocessing/dataset1_ucsd_eeg/data/processed/.gitkeep
 
 # IDE files
 .vscode/

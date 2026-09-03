@@ -1,1 +1,1 @@
-# Transformer-Driven-Explainable-AI-for-Parkinson-s-EEG-Classification
+# Transformer-Driven-Explainable-AI-for-Parkinson-EEG-Classification
