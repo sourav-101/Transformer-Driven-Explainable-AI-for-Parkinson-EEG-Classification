@@ -1,0 +1,14 @@
+# Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data folders (Do not push large datasets to GitHub)
+data/
+
+# IDE files
+.vscode/
